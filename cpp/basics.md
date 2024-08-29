@@ -17,3 +17,24 @@ This lets you print data to stdout. It is buffered as well, and you can add mult
 
 #### std::endl vs '\n'
 `std::endl` manually flushes the buffer, which is costly, while `\n` does not. Prefer `\n`.
+
+## Variables
+An object is a region of memory (not including functions) and has nothing to do with OOP. A named object (as opposed to a anonymous
+object) is a variable.
+
+### Initialization
+- Uninitialized: object does not have a value yet
+- Initialized: object given known value at point of definition
+- Assignment: object given known value beyond point of definition
+
+*Best Practice*: always initialize variables.
+
+#### Initialization Methods
+There are a lot, but direct list initialization (aka "uniform initialization") is preferred: `int x {5};`
+- This also prevents narrowing.
+
+#### Default vs Value Initialization
+Default: `int x;` has undetermined value
+Value: `int x {};` initialized as empty
+
+*Best Practice*: Don't use default initialization. Use `{0}` if you want it to be zero, and `{}` if you want it to be a temporary.
