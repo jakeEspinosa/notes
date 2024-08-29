@@ -38,3 +38,20 @@ Default: `int x;` has undetermined value
 Value: `int x {};` initialized as empty
 
 *Best Practice*: Don't use default initialization. Use `{0}` if you want it to be zero, and `{}` if you want it to be a temporary.
+
+## Operators
+Besides the basic operators, C++ has a few more (see iostream section for extraction and insertion).
+Operators have an arity, or the number of operands it takes.
+- Unary
+- Binary
+- Ternary
+- Nullary (only throws)
+
+Symbol operators like `+` are often referred to as "operator\<symbol\>".
+
+## Bad Behavior
+Undefined Behavior is the result of code not well-understood by the C++ language.
+Implementation-Defined Behavior is not defined by the C++ standard, but is compiler-specific and well-documented.
+Unspecified Behavior is like Implementation-Defined Behavior but is not required to be documented.
+
+*Best Practice*: Avoid using any of the above.
