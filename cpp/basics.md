@@ -20,7 +20,7 @@ This lets you print data to stdout. It is buffered as well, and you can add mult
 
 ## Variables
 An object is a region of memory (not including functions) and has nothing to do with OOP. A named object (as opposed to a anonymous
-object) is a variable.
+object) is a variable. A temporary is an unnamed/anonymous object created by the compiler to temporarily store a value.
 
 ### Initialization
 - Uninitialized: object does not have a value yet
