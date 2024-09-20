@@ -11,3 +11,5 @@ approach provides value. If this encourages even one person to hand write notes,
 - [C++](https://github.com/jakeEspinosa/notes/tree/main/cpp)
 - [Vue](https://github.com/jakeEspinosa/notes/tree/main/vue)
 - [CSS](https://github.com/jakeEspinosa/notes/tree/main/css)
+- [Tools](https://github.com/jakeEspinosa/notes/tree/main/tools)
+- [Productivity](https://github.com/jakeEspinosa/notes/tree/main/productivity)
