@@ -19,7 +19,8 @@ This will define the flow of the program. Once this is done, you have a rough ou
 Using the task hierarchy, begin stubbing out the program and then implement the stubs.
 
 ## Step 5: Testing
-Test to ensure the logic is correct.
+Test to ensure the logic is correct. Don't just test the happy path. 
+Beat your code up for correctness and understandability. Don't spare yourself, spare your coworkers and the user.
 
 ## Tips
 - Focus on one area at a time. Make it correct, then move on.
